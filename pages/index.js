@@ -3,8 +3,8 @@ import { Form, Card, Button } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import Post from "../lib/components/Post";
-import AnonAbi from "../artifacts/contracts/Anon.sol/Anon.json";
-import PostAbi from "../artifacts/contracts/Post.sol/Post.json";
+// import AnonAbi from "../artifacts/contracts/Anon.sol/Anon.json";
+// import PostAbi from "../artifacts/contracts/Post.sol/Post.json";
 
 export default function Home() {
   const anonAddress = "contractAddress";
