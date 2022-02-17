@@ -5,7 +5,7 @@ async function main() {
   const anon = await Anon.deploy();
   await anon.deployed();
 
-  console.log("Greeter deployed to:", anon.address);
+  console.log("Anon deployed to:", anon.address);
 }
 
 main().catch((error) => {
